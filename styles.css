@@ -673,3 +673,12 @@ a{ color: inherit; }
   filter: none; /* 色補正を外す */
   transition: none; /* hover効果を外す */
 }
+
+/* --- Key Visual Hover Effect OFF --- */
+.hero__media:hover {
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.10);
+  background: none;
+}
+.hero__media:hover img {
+  filter: none;
+}
